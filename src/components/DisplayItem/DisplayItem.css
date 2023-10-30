@@ -1,9 +1,9 @@
 .incart {
-    background-color: purple;
+    background-color: rgb(38, 251, 251);
 }
 
 .purchased {
-    background-color: teal;
+    background-color: rgb(197, 6, 197);
 }
 
 .incart, .purchased{
