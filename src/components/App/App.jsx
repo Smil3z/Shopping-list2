@@ -24,11 +24,11 @@ function App() {
     }, []);
 
     return (
-        <div className="App">
+        <Container maxWidth='lg'>
             <Header />
             <Form getShoppingList={getShoppingList}/>
             <ShoppingList getShoppingList={getShoppingList} list={shoppingList}/>
-        </div>
+        </Container>
     );
 }
 export default App;
